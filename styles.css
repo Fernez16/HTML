@@ -1,0 +1,315 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: relative;
+}
+div {
+    background: #88fbff;
+    display: relative;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+}
+
+header {
+    display: flex; /* Utilizamos flexbox */
+    justify-content: space-between; /* Distribuye los elementos horizontalmente */
+    align-items: center; /* Centra verticalmente los elementos */
+    background-color: #333; /* Color de fondo del encabezado */
+    padding: 20px; /* Espaciado interno */
+}
+
+/* Estilos para el logo */
+.logo {
+    width: 200px; /* Tamaño ajustable según sea necesario */
+    height: auto; /* Para mantener la proporción */
+}
+
+/* Estilos para el contenedor del logo */
+.logo-container {
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+}
+
+/* Estilos para el título */
+h1 {
+    margin: 0; /* Elimina el margen por defecto del título */
+    color: #0215c0; /* Color del texto */
+}
+
+/* Estilos para el formulario de búsqueda */
+.search-form {
+    display: flex; /* Utilizamos flexbox */
+}
+
+.search-form input[type="text"] {
+    padding: 5px; /* Espaciado interno */
+}
+
+.search-form button {
+    padding: 5px 10px; /* Espaciado interno */
+    background-color: #fff; /* Color de fondo del botón */
+    border: none; /* Elimina el borde del botón */
+    cursor: pointer; /* Cursor al pasar el ratón por encima */
+}
+
+
+header {
+    font-family: nosifer;
+    background: #030942;
+    color: #073ea3;
+    padding: 25px;
+    text-align: center;
+}
+
+
+nav {
+    background: #073ea3;      
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    font-family: corleone due;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 10 ;
+    padding: 25px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    border-top: 2px solid #88fbff;
+}
+section a {
+    color: black;
+    font-family:magneto;
+    text-decoration: none;
+    margin: 5px;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+.seccion {
+    border: 1px solid #88fbff ;
+    padding: 20px;
+    margin: 20px;
+   
+  
+}
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: corleone due;
+}
+
+h3 {
+    color: rgb(15, 2, 63);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+p {
+    color:black;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+p1 {
+    color:black;
+    margin-bottom: 20px;
+}
+section article2 address a {
+    color: rgb(15, 2, 63);
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-family: magneto;
+}
+.lateral p {
+    width: 240px;
+    border: 1px solid #acd9f7;
+   
+    margin: 20px 0;
+    padding:40px ;
+}
+footer {
+    background-color: #3f6abb ;
+    padding: 10px;
+}
+footer p1 {
+    color: #9dd1f0;
+    padding: 50px;
+    
+}
+footer time {
+    color: #71c8fa;
+    padding: 100px;
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    body {
+        background: #000063;
+        text-align: right;
+    }  
+}
+  
+    body, div, fieldset{
+         margin: 0;
+         padding: 0;
+         border: 0;
+         font-size: 100%;
+         font: inherit;
+     }
+    
+    
+     .cajabuscar {
+         float: none;
+         width: 100%;
+         max-width: 453px;
+         margin-bottom: 25px;
+         margin-top: 29px;
+         margin-left: left;
+         margin-right: auto;
+         display: inline-block;
+         text-align: relative;
+     }
+    
+     #buscarform {
+         padding: 0;
+         float: left;
+         clear: both;
+         width: 100%;
+         position: relative;
+     }
+     #buscarform fieldset { float: left }
+    
+     #buscarform .search {
+         font-size: 20px;
+         top: 0px;
+         color: #FFF;
+         background: #33BCF2;
+         position: absolute;
+         right: 0;
+         top: 0;
+         padding: 9px;
+         height: 24px;
+         width: 24px;
+         text-align: center;
+     }
+     #buscarform fieldset { width: 100% }
+    
+     #s {
+         width: 100%;
+         background-color: #fff;
+         float: left;
+         padding: 8px 0;
+         text-indent: 10px;
+         color: #555555;
+         border: 1px solid #fff; 
+         box-sizing: border-box;
+         height: 42px;
+     }
+    
+        .button{
+         right: 0;
+         top: 0;
+         padding: 9px 0;
+         float: right;
+         border: 0;
+         width: 42px;
+         height: 42px;
+         cursor: pointer;
+         text-align: center;
+         padding-top: 10px;
+         color: #a4a4a4;
+         transition: all 0.25s linear;
+         background: transparent;
+         z-index: 10;
+         position: absolute;
+         border: 0;
+         vertical-align: top;
+     }
+header h1 {
+    margin: 0;
+}
+
+.search-form {
+    margin-top: 10px;
+    position: relative; /* Para posicionar el botón dentro del formulario */
+}
+
+.search-form input[type="text"] {
+    padding: 5px;
+    width: 200px;
+}
+
+.search-form button {
+    padding: 5px 10px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0; /* Posiciona el botón al extremo derecho */
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.logo {
+    width: 50px; /* Tamaño ajustable según sea necesario */
+    height: 50px; /* Para mantener la proporción */
+    position: absolute;
+    top: 0%; /* Alinea el centro del logo con el texto */
+    right: 20px; /* Ajusta según sea necesario */
+    transform: translateY(-50%); /* Centra verticalmente */
+}
+
+/* Estilos para el encabezado */
+header {
+    position: left;
+    padding: 20px;
+}
+
+header h1 {
+    display: inline-block;
+    margin: 0;
+    padding-right: 70px; /* Añade espacio para el logo */
+}
+}

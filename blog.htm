@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FG Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>FG Blog</h1>
+        <img src="C:\Users\marty\Downloads\FG.png" alt="Logo de FG Blog" class="logo">
+        <form action="#" method="GET" class="search-form">
+            <input type="text" name="search" id="search" placeholder="Buscar...">
+            <button type="submit">Buscar</button>
+        </form>
+    </header>
+    <nav>
+        <ul>
+            <a href="#">Historia</a>
+            <a href="#">Nuestros proyectos</a>
+            <a href="#" onclick="enviarCorreo()">Contacto</a>
+
+            <script>
+            function enviarCorreo() {
+                var correos = "mailto:m.e.fernez@gmail.com, xrystian@gmail.com";
+                window.location.href = correos;
+            }
+            </script>
+        </ul>
+    </nav>
+    <section class="blog-posts">
+        <article>
+            <h2>Empecemos de cero</h2>
+            <h3>¿Que Hacemos?</h3>
+            <p>
+              Somos estudiantes de desarrollo web, nuestra principal ocupación es
+              explorar y dominar las tecnologías más relevantes y efectivas en
+              este campo. En este momente estamos en la creación y el diseño de un
+              blog, aprendiendo tanto sobre la estética y la usabilidad como sobre
+              la funcionalidad y la optimización. Investigamos constantemente
+              nuevas herramientas y técnicas, desde los fundamentos del HTML y CSS
+              hasta los lenguajes de programación más avanzados y las últimas
+              tendencias en diseño responsive. Nuestro objetivo es perfeccionar
+              nuestras habilidades para ofrecer soluciones web innovadoras y de
+              alta calidad.
+            </p>
+  
+            <a
+              href="https://www.linkedin.com/in/martin-ezequiel-fernez-54277718a/"
+            >
+              M.E.Fernez
+            </a>
+            <a
+              href="https://www.linkedin.com/in/cristi%C3%A1n-g%C3%B3mez-604b6775/"
+            >
+              G.C.C.Gómez
+    </section>
+    <footer>
+        <p>© 2024 FG Blog. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
